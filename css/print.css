@@ -1,48 +1,30 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
-
 * {
-	background: transparent; !important
-	color: black;
-	line-height: 14pt;
+  color: black; 
+  font-size: 12pt;
+  font-family: serif;
+  margin-bottom: 0.5in;
 }
 
-body {
-	font-family: "Source Sans Pro", serif;
-}
-
-h1 {
-	font-family: "Futura", serif;
-	text-align: center;
-}
-
-h2 {
-	font-family: "Domine", serif;
-}
-
-h3 {
-	font-family: "Domine", serif;
-}
-
-h4 {
-	font-family: "Domine", serif;
-}
-
-h5 {
-	font-family: "Domine", serif;
-}
-
-.download {
+nav {
 	display: none;
 }
 
- nav {
- 	display: none;
- }
+img {
+	display: block; width: 50%; height: 50%;
+}
 
- img {
- 	display: none;
- }
+section {
+	line-height: 1;
+}
 
- @page {
- 	margin: 0.5in;
- }
+a {
+	display: none;
+}
+
+.contact {
+	display: block;
+}
+
+iframe {
+	display: none;
+}
